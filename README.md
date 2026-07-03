@@ -57,11 +57,11 @@ Environment variables
 ---------------------
 
 - `$RECTOR_PATH` Use the path given in this variable instead of `vendor/bin/rector`.
-- `RECTOR_CONFIG_PATH` Use the path to the rector config file given in this variable instead of `./rector.php`.
+- `$RECTOR_CONFIG_PATH` Use the path to the rector config file given in this variable instead of `./rector.php`.
 - `$ECS_PATH` Use the path given in this variable instead of `vendor/bin/ecs`.
-- `ECS_CONFIG_PATH` Use the path to the ecs config file given in this variable instead of `./ecs.php`.
+- `$ECS_CONFIG_PATH` Use the path to the ecs config file given in this variable instead of `./ecs.php`.
 - `$PHP_CS_FIXER_PATH` Use the path given in this variable instead of `vendor/bin/php-cs-fixer`.
-- `PHP_CS_FIXER_CONFIG_PATH` Use the path to the ecs config file given in this variable instead of `./.php-cs-fixer.dist.php`.
+- `$PHP_CS_FIXER_CONFIG_PATH` Use the path to the ecs config file given in this variable instead of `./.php-cs-fixer.dist.php`.
 
 The script tries to look for ECS first. If it not found, then the script tries to look for PHP-CS-Fixer. If both don't exist, it will print an error.
 
